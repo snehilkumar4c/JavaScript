@@ -1,5 +1,11 @@
-var dog = prompt("how old is your dog? ");
+var guests = ["snehil", "test", "angela", "testcase"];
 
-var humanage = ((dog - 2) * 4) + 21;
+var input = prompt("Enter your name: ");
 
-alert("your dog is " + humanage);
+if(guests.includes(input)) {
+    alert("Welcome to the party!");
+}
+
+else {
+    alert("sorry for not having any invitation letter!")
+}
