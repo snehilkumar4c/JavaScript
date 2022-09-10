@@ -1,11 +1,10 @@
-var guests = ["snehil", "test", "angela", "testcase"];
+var output = [];
 
-var input = prompt("Enter your name: ");
+var count = 1;
 
-if(guests.includes(input)) {
-    alert("Welcome to the party!");
+function fizzBuzz() {
+    output.push(count++);
+    console.log(output);
 }
 
-else {
-    alert("sorry for not having any invitation letter!")
-}
+fizzBuzz();
